@@ -13,7 +13,8 @@
     "ejs": "^2.6.1",
     "express": "~4.15.2",
     "morgan": "~1.8.1",
-    "serve-favicon": "~2.4.2"
+    "serve-favicon": "~2.4.2",
+    "watson-developer-cloud": "^3.4.2"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
