@@ -1,8 +1,35 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* #chatDiv {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 70vw;
+  height: 92vh;
+  background-color: blue;
 }
 
-a {
-  color: #00B7FF;
+
+#formDiv {
+  position: fixed;
+  bottom: 0;
+}
+
+#chatText {
+  width: 70vw;
+} */
+
+#chatPanel {
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+#formDiv {
+  position: fixed;
+  bottom: 0;
+}
+
+#userText {
+  width: 35vw;
 }
