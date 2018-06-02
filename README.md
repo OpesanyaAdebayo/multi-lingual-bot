@@ -1,2 +1,2 @@
 # multi-lingual-bot
-A multilingual bot that controls home appliances
+A multilingual bot that controls car appliances
