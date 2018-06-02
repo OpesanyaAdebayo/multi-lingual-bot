@@ -11,7 +11,7 @@ const translate = (text, source, target) => new Promise((resolve, reject) => {
       if (err) {
         return reject(Error(err));
       }
-      return resolve(translation);
+      return resolve(translation.translations[0].translation);
     },
   );
 });
@@ -25,7 +25,7 @@ const identify = text => new Promise((resolve, reject) => {
       if (err) {
         return reject(Error(err));
       }
-      return resolve(language);
+      return resolve(language.languages[0].language);
     },
   );
 });
