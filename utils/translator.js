@@ -9,7 +9,7 @@ const translate = (text, source, target) => new Promise((resolve, reject) => {
     },
     (err, translation) => {
       if (err) {
-        return reject(Error(err));
+        return reject(err);
       }
       return resolve(translation.translations[0].translation);
     },
